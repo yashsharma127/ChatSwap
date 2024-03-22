@@ -4,7 +4,7 @@ A simple full-stack chat application built with React.js for the frontend and No
 
 ## User Interface
 <img src="/readme-images/1.png" width="400" height="200"> <img src="/readme-images/2.png" width="400" height="200">
-<img src="/readme-images/3.png" width="400" height="400">
+<img src="/readme-images/3.png" width="800" height="400">
 
 ## Features and Technologies used
 
