@@ -55,6 +55,7 @@ Before you can use this application, ensure you have the following prerequisites
    in terminal and re-run the above command)
 
 4. If want to run locally:
+   
    For Frontend :
 
    ```bash
