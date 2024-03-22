@@ -20,6 +20,7 @@ Before you can use this application, ensure you have the following prerequisites
 
 - Node.js and npm installed
 - MongoDB installed and running ( locally )
+- Docker installed and running (optional)
 - Git and GitHub account (for hosting)
 
 ## Setup
@@ -42,21 +43,32 @@ Before you can use this application, ensure you have the following prerequisites
     cd ..
    ```
 
-3. For Frontend :
+3. (optional) If want to run using docker:
+
+   (note 1: remember to change MONGO_URL="mongodb://localhost:27017/chat" to MONGO_URL="mongodb://<host_machine_ip>:27017/chat" in server .env
+   )
+
+   ```bash
+    docker-compose up
+   ```
+   (note 2: if got bcrypt error run docker exec -it <backend-container-id> npm rebuild bcrypt --build-from-source
+   in terminal and re-run the above command)
+
+4. If want to run locally:
+   For Frontend :
 
    ```bash
     cd client
     npm install
     npm start
    ```
+   For Backend:
 
-4. For Backend:
-
-   ```
-    cd server
-    npm install
-    npm start
-   ```
+      ```
+      cd server
+      npm install
+      npm start
+      ```
 
 ## Note
 
