@@ -51,7 +51,7 @@ Before you can use this application, ensure you have the following prerequisites
    ```bash
     docker-compose up
    ```
-   (note 2: if got bcrypt error run docker exec -it <backend-container-id> npm rebuild bcrypt --build-from-source
+   (note 2: if got bcrypt error run ``` docker exec -it <backend-container-id> npm rebuild bcrypt --build-from-source ```
    in terminal and re-run the above command)
 
 4. If want to run locally:
