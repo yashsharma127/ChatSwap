@@ -1,6 +1,6 @@
 # ChatSwap
 
-A simple full-stack chat application built with React.js for the frontend and Node.js with Socket.IO for the backend. This application allows users to chat in real-time, leveraging MongoDB for database storage.
+A simple full-stack chat application built with React.js for the frontend and Node.js with Socket.IO for the backend. This application allows users to chat in real-time, leveraging MongoDB for database storage. Application is created for application of socket.io for realtime chatting
 
 ## User Interface
 <img src="/readme-images/1.png" width="400" height="200"> <img src="/readme-images/2.png" width="400" height="200">
